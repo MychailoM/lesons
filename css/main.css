@@ -1,0 +1,51 @@
+.header {
+  background-color: beige;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding: 0 15px;
+  border: 1px solid red;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-item {
+  height: 200px;
+  width: 200px;
+  background-color: firebrick;
+  margin-left: 10px;
+}
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 786px) {
+  .container {
+    width: 786px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+}/*# sourceMappingURL=main.css.map */
